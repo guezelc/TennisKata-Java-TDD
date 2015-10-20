@@ -4,6 +4,7 @@ public class TennisGame
 	public static String SCORE_DEFAULT = "Love-all";
 	public static String scoreForJ1 ="Fifteen-love";
 	public static String scoreForJ2 = "love-Fifteen";
+	public static String onePointForEachPlayer = "Fifteen-all";
 	private String score;
 	
 	public TennisGame()

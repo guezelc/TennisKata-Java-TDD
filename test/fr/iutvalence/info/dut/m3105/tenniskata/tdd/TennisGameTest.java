@@ -26,4 +26,11 @@ public class TennisGameTest
 		game1.setscore(TennisGame.scoreForJ2);
 		Assert.assertEquals(game1.getscore(),"love-Fifteen"); 
 	}
+	
+	@Test
+	public void aForthTestWhereJ1AndJ2WinEachTwoOnePoint()
+	{
+		game1.setscore(TennisGame.onePointForEachPlayer);
+		Assert.assertEquals(game1.getscore(),"Fifteen-all"); 
+	}
 }
