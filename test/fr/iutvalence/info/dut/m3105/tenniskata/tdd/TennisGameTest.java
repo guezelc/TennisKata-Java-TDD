@@ -24,6 +24,6 @@ public class TennisGameTest
 	public void aThirdTestWhereTheReceiverWonTheFirstPoint()
 	{
 		game1.setscore(TennisGame.scoreForJ2);
-		Assert.assertEquals(game1.getscore(),"love-Fifteen");
+		Assert.assertEquals(game1.getscore(),"love-Fifteen"); 
 	}
 }

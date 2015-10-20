@@ -19,5 +19,5 @@ public class TennisGame
 	public void setscore(String score)
 	{
 		this.score=score;
-	}
+	} 
 }
