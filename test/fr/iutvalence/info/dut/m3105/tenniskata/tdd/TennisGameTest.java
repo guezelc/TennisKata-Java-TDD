@@ -14,9 +14,16 @@ public class TennisGameTest
 	}
 	
 	@Test
-	public void aSecondTestWhereTheServerWinTheFirstPoint()
+	public void aSecondTestWhereTheServerWonTheFirstPoint()
 	{
 		game1.setscore(TennisGame.scoreForJ1);
 		Assert.assertEquals(game1.getscore(),"Fifteen-love");
+	}
+	
+	@Test
+	public void aThirdTestWhereTheReceiverWonTheFirstPoint()
+	{
+		game1.setscore(TennisGame.scoreForJ2);
+		Assert.assertEquals(game1.getscore(),"love-Fifteen");
 	}
 }

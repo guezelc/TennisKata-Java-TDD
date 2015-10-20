@@ -3,6 +3,7 @@ public class TennisGame
 {
 	public static String SCORE_DEFAULT = "Love-all";
 	public static String scoreForJ1 ="Fifteen-love";
+	public static String scoreForJ2 = "love-Fifteen";
 	private String score;
 	
 	public TennisGame()
