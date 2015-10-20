@@ -6,10 +6,12 @@ import org.junit.Test;
 
 public class TennisGameTest
 {
+	
 	@Test
 	public void aSimpleBeginningTest()
 	{
-		Assert.fail("...");
+		TennisGame game1= new TennisGame() ;
+		Assert.assertEquals(game1.getscore(),"Love-all");
 	}
 
 }
